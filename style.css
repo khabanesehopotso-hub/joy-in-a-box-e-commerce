@@ -1,0 +1,96 @@
+body {
+margin: 0;
+font-family:'segoe UI',sans-serif;
+background-color:violet;
+}
+/* HEADER */
+header {
+display: flex;
+justify-content:center;
+align-items:center;
+background:white;
+padding:15px;
+position:relative;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.logo img {
+height:60px;
+}
+.logo a{
+text-decoration:none;
+color:black;
+}
+.icons{
+position:absolute;
+right:20px;
+font-size:20px;
+}
+/* NAVIGATION */
+nav {
+display:flex;
+justify-content:center;
+background:violet;
+padding:12px;
+}
+nav a {
+margin:0 20px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+transition:0.3s;
+}
+nav a:hover {
+color:white;
+}
+/* CONTENT */
+.container {
+padding:30px;
+align:center;
+}
+img {
+width:80%;
+border-radius:12px;
+margin:20px 0;
+}
+h1{
+color:#333;
+}
+Ul,ol{
+text-align:left;
+display:inline-block;
+}
+/* FOOTER */
+footer {
+background:#333;
+color:white;
+padding:25px;
+text-align:center;
+margin-top:30px;
+}
+/* FLOATING BUTTONS */
+.top-btn {
+position:fixed;
+bottom:20px;
+right:20px;
+background: pink;
+border:none;
+padding:10px;
+}
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:red;
+color: white;
+padding:10px;
+text-decoration:none;
+}
+/* RESPONSIVE */
+@media (max-width:600px){
+nav{
+flex-direction:column;
+}
+img{
+width:100%;
+}
+
